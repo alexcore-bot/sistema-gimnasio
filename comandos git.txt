@@ -3,3 +3,14 @@ git add .
 git commit -m "message"
 ·git remote add origin https:/...
 git push origin main
+
+Primero, debe recuperar los últimos cambios 
+del repositorio remoto. Esto actualizará su 
+repositorio local con los cambios remotos sin 
+fusionarlos en su directorio de trabajo.
+
+git fetch origin
+
+git add .
+git commit -m "comandos"
+git push origin main
